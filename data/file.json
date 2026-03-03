@@ -1,0 +1,32 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Patrick",
+            "email": "patrick@gmail.com",
+            "projects": [
+                1
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "id": 1,
+            "title": "CLI Project",
+            "description": "Developing CLI Project",
+            "user_id": 1,
+            "tasks": [
+                1
+            ]
+        }
+    ],
+    "tasks": [
+        {
+            "id": 1,
+            "title": "Build CLI",
+            "project_id": 1,
+            "assigned_user_id": 1,
+            "status": "Pending"
+        }
+    ]
+}
